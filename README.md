@@ -50,7 +50,7 @@ This project displays a map locator palteform using `flutter_map`, build using F
 
 ## Project Structure
 
-Here is the detailed project structe of Domi Track
+Here is the detailed project structure of Domi Track
 
 ```markdown
 domi_track/
@@ -122,11 +122,10 @@ This modular structure allows easy navigation and maintenance of the codebase as
 
 You can watch the demo video of the project below:
 
-<video width="400" controls>
-  <source src="https://res.cloudinary.com/drkcsvbdj/video/upload/v1728027095/ScreenRecording_10-04-2024_12-56-23_1_1_mrbdxe.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  <a href="https://res.cloudinary.com/drkcsvbdj/video/upload/v1728027095/ScreenRecording_10-04-2024_12-56-23_1_1_mrbdxe.mp4">Click here to watch the demo video</a>
-</video>
+
+https://github.com/user-attachments/assets/82738a45-6692-4d8c-bdda-653a9f56dd9e
+
+
 
 ## Project Images
 
