@@ -1,16 +1,136 @@
-# domi_track
+# Domi Track
 
-A new Flutter project.
+## OVERVIEW👩‍💻
 
-## Getting Started
+This project displays a map locator palteform using `flutter_map`, build using Flutter with a Home module & Details module.
 
-This project is a starting point for a Flutter application.
+## Module Implemented
 
-A few resources to get you started if this is your first Flutter project:
+### Home Module :-
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- The user will see all of the registered locations, and clicking on one of them will bring up a sheet with further information about that site, such as photographs and documents.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Explore the map and click on registered locations to learn more about them.
+
+- The Image section contains a horizontal carousel that displays photographs regarding a specific location.
+
+- The Docs section contains all of the related documents for a certain location, along with a search box.
+
+### Details Module :-
+
+- When you click on any location that is not already registered with us, you will be directed to the details page, where you will see a marker designating the target location.
+
+- You will get a sheet for inviting your friends to claim the location.
+
+- You can change your target location at any moment by just clicking on it.
+
+## Steps To Use Run This Project
+
+### Tools
+
+- Dart
+
+- Flutter
+
+- Flutter Map
+
+### Steps
+
+- Install Flutter
+
+- Install Dart
+
+- Clone this repo to your local machine using
+
+  `git clone https://github.com/jeetsdev/domi_track`
+
+- Run `flutter pug get`
+
+- Run this Project on your IOS emulator
+
+## Project Structure
+
+Here is the detailed project structe of Domi Track
+
+```markdown
+domi_track/
+│
+├── lib/
+│ ├── core/
+│ │ ├── constants/
+│ │ │ └── constants.dart
+│ │ ├── enums/
+│ │ │ ├── doc_type_enums.dart
+│ │ │ └── enums.dart
+│ │ ├── models/
+│ │ │ └── models.dart
+│ │ ├── widgets/
+│ │ │ ├── typography/
+│ │ │ │ ├── custom_text.dart
+│ │ │ │ ├── text_extra_small.dart
+│ │ │ │ ├── text_extra_small_bold.dart
+│ │ │ │ ├── text_large.dart
+│ │ │ │ ├── text_medium.dart
+│ │ │ │ ├── text_small.dart
+│ │ │ │ └── text_small_bold.dart
+│ │ │ └── widget.dart
+│ │ └── providers/
+│ │ └── app_state.dart
+│ │
+│ ├── features/
+│ │ ├── details/
+│ │ │ ├── view/
+│ │ │ │ ├── screens/
+│ │ │ │ │ └── details_screen.dart
+│ │ │ │ └── widgets/
+│ │ │ │ └── invite_and_earn_card.dart
+│ │ │ └── details_service.dart
+│ │ └── home/
+│ │ ├── view/
+│ │ │ ├── screens/
+│ │ │ │ └── home_screen.dart
+│ │ │ └── widgets/
+│ │ │ └── location_card.dart
+│ │ └── home_service.dart
+│ │
+│ └── main.dart
+│
+├── pubspec.yaml
+└── README.md
+
+```
+
+## Explanation of the Structure
+
+- `lib`: The main directory for your Dart code.
+  - core/: Contains core functionalities, constants, enums, models, and widgets.
+    - constants/: Holds constant values used throughout the app.
+    - enums/: Contains enumerations like DocTypeEnums.
+    - models/: Contains data models used in the app.
+    - widgets/: Contains reusable widgets, including typography components.
+    - providers/: Contains state management classes (like AppState).
+- `features`: Contains feature-specific code.
+  - details/: Contains everything related to the details feature, including screens and widgets.
+  - home/: Contains everything related to the home feature.
+- `main.dart`: The entry point of the Flutter application.
+- `pubspec.yaml`: The configuration file for the Flutter project, where dependencies are listed.
+- `README.md`: Documentation for the project, explaining its purpose and usage.
+
+This structure is modular and allows us for easy navigation and maintenance of the codebase as the project grows. Adjustments can be made based on specific needs or additional features.
+
+## Demo Video
+
+You can watch the demo video of the project below:
+
+<video width="600" controls>
+  <source src="https://res.cloudinary.com/drkcsvbdj/video/upload/v1728027095/ScreenRecording_10-04-2024_12-56-23_1_1_mrbdxe.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  <a href="https://res.cloudinary.com/drkcsvbdj/video/upload/v1728027095/ScreenRecording_10-04-2024_12-56-23_1_1_mrbdxe.mp4">Click here to watch the demo video</a>
+</video>
+
+## Project Images
+
+| ![Landing Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026705/IMG_3133_bixqg2.png) | ![Login Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026705/IMG_3132_acjliv.png)            |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| ![Sign Up Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026704/IMG_3134_hf5jw2.png) | ![Simulator Screen Shot](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026704/IMG_3135_r2nbai.png) |
+|                                                                                                    |                                                                                                             |
