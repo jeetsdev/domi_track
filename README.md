@@ -116,13 +116,13 @@ domi_track/
 - `pubspec.yaml`: The configuration file for the Flutter project, where dependencies are listed.
 - `README.md`: Documentation for the project, explaining its purpose and usage.
 
-This structure is modular and allows us for easy navigation and maintenance of the codebase as the project grows. Adjustments can be made based on specific needs or additional features.
+This modular structure allows easy navigation and maintenance of the codebase as the project grows. Adjustments can be made based on specific needs or additional features.
 
 ## Demo Video
 
 You can watch the demo video of the project below:
 
-<video width="600" controls>
+<video width="400" controls>
   <source src="https://res.cloudinary.com/drkcsvbdj/video/upload/v1728027095/ScreenRecording_10-04-2024_12-56-23_1_1_mrbdxe.mp4" type="video/mp4">
   Your browser does not support the video tag.
   <a href="https://res.cloudinary.com/drkcsvbdj/video/upload/v1728027095/ScreenRecording_10-04-2024_12-56-23_1_1_mrbdxe.mp4">Click here to watch the demo video</a>
@@ -130,7 +130,7 @@ You can watch the demo video of the project below:
 
 ## Project Images
 
-| ![Landing Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026705/IMG_3133_bixqg2.png) | ![Login Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026705/IMG_3132_acjliv.png)            |
+| ![Landing Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026705/IMG_3133_bixqg2.png) | ![Home Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026705/IMG_3132_acjliv.png)            |
 | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| ![Sign Up Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026704/IMG_3134_hf5jw2.png) | ![Simulator Screen Shot](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026704/IMG_3135_r2nbai.png) |
+| ![Deaggble Sheet](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026704/IMG_3134_hf5jw2.png) | ![Details Page](https://res.cloudinary.com/drkcsvbdj/image/upload/v1728026704/IMG_3135_r2nbai.png) |
 |                                                                                                    |                                                                                                             |
